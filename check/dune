@@ -4,5 +4,6 @@
 
 (alias
  (name runtest)
+ (package eqaf)
  (deps (:check check.exe))
  (action (run %{check})))

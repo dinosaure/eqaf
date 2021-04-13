@@ -4,5 +4,6 @@
 
 (alias
  (name runtest)
+ (package eqaf)
  (deps (:fuzz fuzz.exe))
  (action (run %{fuzz})))
