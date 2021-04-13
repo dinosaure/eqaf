@@ -5,6 +5,7 @@
 
 (alias
  (name runtest)
+ (package eqaf)
  (deps (:test test.exe))
  (action (run %{test} --color=always)))
 
@@ -15,5 +16,6 @@
 
 (alias
  (name runtest)
+ (package eqaf)
  (deps (:test test_branch.exe))
  (action (run %{test})))
